@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloAzureDevOps.Web", "HelloAzureDevOps.Web\HelloAzureDevOps.Web.csproj", "{DD0816B1-D311-441E-9E37-E849B5EE9D0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloAzureDevOps.Tests", "HelloAzureDevOps.Tests\HelloAzureDevOps.Tests.csproj", "{1900D8A3-B009-4760-AE91-832E5345FB10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD0816B1-D311-441E-9E37-E849B5EE9D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0816B1-D311-441E-9E37-E849B5EE9D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0816B1-D311-441E-9E37-E849B5EE9D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0816B1-D311-441E-9E37-E849B5EE9D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1900D8A3-B009-4760-AE91-832E5345FB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1900D8A3-B009-4760-AE91-832E5345FB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1900D8A3-B009-4760-AE91-832E5345FB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1900D8A3-B009-4760-AE91-832E5345FB10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19CDAD9F-1C69-400C-828C-E3DA02CE4637}
+	EndGlobalSection
+EndGlobal
