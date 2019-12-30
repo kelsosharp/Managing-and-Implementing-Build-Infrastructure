@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: 'HelloDevOpsAgentPool'
+  name: 'DevOpsBADemo2'
 
 variables:
   solution: '**/*.sln'
