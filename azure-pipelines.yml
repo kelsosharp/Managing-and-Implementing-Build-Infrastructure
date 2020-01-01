@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: 'OrgBuildPool1'
+  name: 'Org1 Agent Pool'
 
 variables:
   solution: '**/*.sln'
