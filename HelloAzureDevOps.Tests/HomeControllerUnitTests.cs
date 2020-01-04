@@ -16,7 +16,6 @@ namespace HelloAzureDevOps.Tests
             //Act
             var result = controller.Index() as ViewResult;
             
-
             //Assert
             Assert.AreEqual("Index", result.ViewName);
 
