@@ -11,6 +11,7 @@ namespace HelloAzureDevOps.Web.Controllers
 {
     public class HomeController : Controller
     {
+    //Test githook
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
