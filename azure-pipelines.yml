@@ -21,6 +21,12 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
+- task: VisualStudioTestPlatformInstaller@1
+    displayName: "VsTest Platform Installer"
+    inputs:
+      versionSelector: "SpecificVersion"
+      testPlatformVersion: "17.2.0"
+
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
